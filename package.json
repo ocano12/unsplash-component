@@ -1,7 +1,9 @@
 {
-  "name": "flickr-component",
+  "name": "unsplash-component",
   "version": "0.1.0",
-  "private": true,
+  "description": "A React component that generates a random image from Unsplash for x amount of seconds",
+  "main": "lib/index.js",
+  "private": false,
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.8.6",
