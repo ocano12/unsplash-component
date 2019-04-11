@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-import Flickr from "./components/flickr";
+import UnsplashContainer from "./containers/unsplashContainer";
 
 class App extends Component {
   render() {
-    return <Flickr />;
+    return <UnsplashContainer seconds="3" tags="cats" />;
   }
 }
 
