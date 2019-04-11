@@ -3,6 +3,11 @@ import { connect } from "react-redux";
 import { fetchImages } from "../actions/imagesAction";
 import Unsplash from "../components/unsplash";
 
+// const divStyle = {
+//   width: "200px",
+//   height: "200px"
+// };
+
 class UnsplashContainer extends Component {
   componentDidMount() {
     this.props.fetchImages(this.props);

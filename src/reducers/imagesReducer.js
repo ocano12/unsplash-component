@@ -19,7 +19,7 @@ const changeImage = (state, action) => {
     return {
       ...state,
       currentIndex: nextIndex,
-      currentUrl: state.allImages[nextIndex].urls.small
+      currentUrl: state.allImages[nextIndex].urls.raw
     };
   }
 };
