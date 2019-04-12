@@ -28,7 +28,7 @@ export const fetchImages = props => dispatch => {
   axios
     .get(
       `https://api.unsplash.com/photos/random/?client_id=${
-        process.env.REACT_APP_UNSPLASH_API_KEY
+        props.apiKey
       }&count=30`
     )
     .then(allImages => {

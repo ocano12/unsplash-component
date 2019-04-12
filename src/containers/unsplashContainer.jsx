@@ -39,7 +39,6 @@ export default connect(
 
 //grab new array
 //provide a repeat prop
-//create app
 //loading
 //clearInterval
 //proptypes
