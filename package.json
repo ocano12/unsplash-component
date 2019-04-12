@@ -1,8 +1,8 @@
 {
   "name": "unsplash-assignment",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A React component that generates a random image from Unsplash for x amount of seconds",
-  "main": "dist/index.js",
+  "main": "index.js",
   "private": false,
   "dependencies": {
     "axios": "^0.18.0",
